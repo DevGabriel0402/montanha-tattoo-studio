@@ -13,4 +13,8 @@ export const MainContainer = styled.div`
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: 580px) {
+    margin-top: -20px;
+  }
 `;

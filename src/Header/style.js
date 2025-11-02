@@ -94,6 +94,32 @@ export const HeaderContainer = styled.header`
     }
   }
 
+  .seta-animated {
+    width: 40px;
+    filter: invert(1) hue-rotate(30deg);
+    position: absolute;
+    transform: rotate(90deg);
+    z-index: 50;
+    bottom: 0px;
+    animation: bounce 2s infinite;
+
+    @media (max-width: 460px) {
+      bottom: 10px;
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: translateY(0) rotate(90deg);
+      }
+      50% {
+        transform: translateY(-10px) rotate(90deg);
+      }
+      100% {
+        transform: translateY(0) rotate(90deg);
+      }
+    }
+  }
+
   .icon {
     width: 120px;
     position: absolute;

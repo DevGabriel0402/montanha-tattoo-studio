@@ -11,8 +11,7 @@ export const GridContainer = styled.div`
   border-radius: 10px;
   background-color: #5351516f;
   padding: 5px;
-  box-shadow: rgba(255, 255, 255, 0.05) 0px 6px 24px 0px,
-    rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
 
   @media (max-width: 1200px) {
     width: auto;
