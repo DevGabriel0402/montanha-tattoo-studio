@@ -16,7 +16,7 @@ export const LoadingContainer = styled.div`
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background-color: #0b0b0b;
+  background-color: #121112;
 `;
 
 export const LoadingImg = styled.img`
