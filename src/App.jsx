@@ -2,13 +2,28 @@ import { Header } from "./Header/Index";
 import styled from "styled-components";
 import { Main } from "./Main/Index";
 import { Footer } from "./Footer/Index";
+import { Loading } from "./components/Loading/Index";
+import { useState, useEffect } from "react";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1500);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <Container>
-      <Header />
-      <Main />
-      <Footer />
+      {loading ? (
+        <Loading />
+      ) : (
+        <>
+          <Header />
+          <Main />
+          <Footer />
+        </>
+      )}
     </Container>
   );
 }
