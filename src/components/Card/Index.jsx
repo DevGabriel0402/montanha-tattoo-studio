@@ -9,7 +9,7 @@ export const Card = () => {
     {
       id: 1,
       title: "Agendar uma tattoo",
-      description: "Clique aqui e você será direcionado para o agendamento.",
+      description: "Clique aqui e você será redirecionado para o agendamento.",
       image: Maquina,
       classe: "card-tattoo",
       mensagem: "Olá Montanha, gostaria de agendar uma tatto com você.",
@@ -17,7 +17,7 @@ export const Card = () => {
     {
       id: 2,
       title: "Agendar um Piercing",
-      description: "Clique aqui e você será direcionado para o agendamento.",
+      description: "Clique aqui e você será redirecionado para o agendamento.",
       image: Piercing,
       classe: "card-piercing",
       mensagem: "Olá Montanha, gostaria de agendar um piercing com você.",
@@ -27,7 +27,7 @@ export const Card = () => {
       id: 3,
       title: "Ver nossa Localização",
       description:
-        "Clique aqui e você será direcionado para o Google Maps, com nossa localização",
+        "Clique aqui e você será redirecionado para o Google Maps, com nossa localização",
       image: Location,
       classe: "card-location",
       url: "https://www.google.com/maps/place/MONTANHA+TATTOO+STUDIO/@-19.9278052,-43.9117226,876m/data=!3m2!1e3!4b1!4m6!3m5!1s0xa6998143133def:0x4ec17a45ab7ef64d!8m2!3d-19.9278103!4d-43.9091423!16s%2Fg%2F11k5g1186m?entry=ttu&g_ep=EgoyMDI1MTAyOS4yIKXMDSoASAFQAw%3D%3D",
