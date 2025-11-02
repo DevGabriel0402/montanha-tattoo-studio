@@ -15,6 +15,6 @@ export const MainContainer = styled.div`
   }
 
   @media (max-width: 580px) {
-    margin-top: -20px;
+    margin-top: -10px;
   }
 `;

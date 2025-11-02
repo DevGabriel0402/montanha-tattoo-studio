@@ -9,7 +9,7 @@ export const GridContainer = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 6px;
   border-radius: 10px;
-  background-color: #5351516f;
+  /* background-color: #efe7e71d; */
   padding: 5px;
   box-shadow: rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
 
@@ -37,10 +37,11 @@ export const GridContainer = styled.div`
   img {
     width: 180px;
     height: auto;
-    padding: 5px;
+    padding: 0.5px;
     aspect-ratio: 1/1;
     object-fit: cover;
-    border-radius: 16px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
 
     @media (max-width: 580px) {
       width: 260px;

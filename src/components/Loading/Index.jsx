@@ -22,6 +22,8 @@ export const LoadingContainer = styled.div`
 export const LoadingImg = styled.img`
   width: 60px;
   height: 60px;
+  border-radius: 50%;
+  background-color: transparent;
   animation: opacityAnimation 0.5s infinite alternate;
 
   @keyframes opacityAnimation {
